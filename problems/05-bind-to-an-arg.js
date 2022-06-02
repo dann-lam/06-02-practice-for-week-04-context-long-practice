@@ -1,6 +1,6 @@
 function bindToAnArg(func, arg) {
   // return func.bind(null, arg)
-  return func.bind(thing, arg)
+  return func.bind(func, arg)
 }
 
 // function iSpy(thing) {
