@@ -1,5 +1,14 @@
-// Your code here
-
+class CallCenter {
+	constructor(name) {
+		this.name = name
+	}
+	sayHello() {
+		console.log(`Hello this is ${this.name}`)
+	}
+	callMeLater(delay) {
+		return setTimeout(() => this.sayHello(this.name), delay)
+	}
+}
 
 /*****************************************************************************/
 /***************** DO NOT MODIFY ANYTHING UNDER THIS LINE ********************/
