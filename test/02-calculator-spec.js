@@ -19,7 +19,7 @@ describe("Calculator", function () {
       assert.equal(calculator.multiply(10), 150);
     });
   });
-  describe("divide(num)", () => {
+  describe("divide(num)", () => { 
     it("should divide num from the total and set and return the new total", function () {
       assert.equal(calculator.divide(5), 30);
     });
